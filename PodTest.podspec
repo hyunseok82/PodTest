@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  descrption sample
                    DESC
 
-  s.homepage     = "http://EXAMPLE/PodTest"
+  s.homepage     = "http://hyunseok82.github.io/PodTest/. Read"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -52,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "기술지원팀 이현석" => "hyunseok82@sk.com" }
-  # Or just: s.author    = "기술지원팀 이현석"
-  # s.authors            = { "기술지원팀 이현석" => "hyunseok82@sk.com" }
-  # s.social_media_url   = "http://twitter.com/기술지원팀 이현석"
+  s.author             = { "기술지원팀 이현석" => "hyunseok82@sk.com" }
+  # Or just: s.author    = "기술지원팀 이현석"
+  # s.authors            = { "기술지원팀 이현석" => "hyunseok82@sk.com" }
+  # s.social_media_url   = "http://twitter.com/기술지원팀 이현석"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
